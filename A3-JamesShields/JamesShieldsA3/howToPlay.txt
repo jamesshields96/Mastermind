@@ -1,0 +1,11 @@
+How to play Mastermind.
+1. A secret code will be hidden from the player
+2. The player will get 12 guesses to crack the code
+3. The code will be 4 letters
+4. If the player guesses a part of the code, he/she will be told about its accuracy and if its correct
+5. Y for a correct code in the correct place, X for correct code but wrong place
+Z for wrong code entirely 
+e.g if the code is [A] [B] [C] [D], and the player guess [A] [E] [F] [C]
+the respones will be Y Z X Z
+6. If the player succesfully guesses the code in less than 12 turns, he/she wins!
+if not, the jobs up and they lose the game.
